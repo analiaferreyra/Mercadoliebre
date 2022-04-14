@@ -4,7 +4,7 @@ const path= require ("path");
 app.use(express.static(path.resolve(__dirname, "./public")));
 
 
-app.listen(process.env.PORT||3000,function() => {
+app.listen(process.env.PORT||3000, function() {
     console.log("Corriendo en http://localhost:3003")
   });
   app.get("/", (req, res) => {
