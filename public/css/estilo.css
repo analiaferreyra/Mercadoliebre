@@ -170,9 +170,12 @@ article div.pie{
     width: 100%;
     align-items: baseline;
     position:relative;
-    display: flex;
-    flex-wrap: wrap;
+   
 
+}
+article div.pie-con-displex{
+    display:flex;
+    flex-wrap: wrap;
 }
 
 main section article img{
