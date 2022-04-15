@@ -23,7 +23,6 @@ body{
 .main-header {
     background-color:#EAC926;
     padding:20px;
-    position: fixed;
     top:0;
     width: 100%;
 }
@@ -168,14 +167,14 @@ article div.pie{
     border-top: 1px solid #ebebeb;
     padding:15px;
     width: 100%;
-    align-items: baseline;
-    position:relative;
-   
-
 }
 article div.pie-con-displex{
     display:flex;
     flex-wrap: wrap;
+    align-items: baseline;
+    position:relative;
+    justify-content: space-evenly;
+
 }
 
 main section article img{
@@ -184,7 +183,6 @@ main section article img{
 
 .banner{
 width:100%;
-margin-top: 180px;
 
 }
 
@@ -242,8 +240,13 @@ div article.descuento-tamaño{
     width:70%;
     
 }
-main section article .description{
+main section article .descripcion{
     display: block;
+    color:#666;
+    font-size:16px;
+    margin-top:20px;
+    justify-content: center;
+
 }
 
 
